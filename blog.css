@@ -1,0 +1,107 @@
+#lefts {
+    margin-top: 20px;
+    margin-bottom: -50px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    font-family: Bahnschrift;
+    color: #1a8cff;
+}
+
+.content1 {
+    padding-top: 53px;
+}
+
+.content1 img {
+    height: 250px;
+}
+
+.content1 :hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.content2 {
+    padding-top: 30px;
+}
+
+.content2 img {
+    height: 250px;
+}
+
+.content2 :hover {
+    cursor: pointer;
+    opacity: 0.9;
+    height: 245px;
+}
+
+
+/* footer */
+
+.footer {
+    background: #f5f5f0;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: black;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
+
+
+/* content3 */
+
+.content3 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+.content3>div {
+    margin: 20px;
+}
+
+.content3>div :hover {
+    opacity: 0.8;
+}
